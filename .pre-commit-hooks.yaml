@@ -1,6 +1,7 @@
 -   id: autoflake
     name: autoflake
     entry: autoflake
+    args: [--remove-all-unused-imports, -i, -r]
     language: python
     'types': [python]
     require_serial: true
